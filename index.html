@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <main>
+        
+            <form action="cadastro.php" method="post">
+            <p id="nome">
+                <label for="iusu" id="nome">Nome:</label>
+                <input type="text" name="usu" id="iusu" minlength="5" maxlength="20" required>
+            </p>
+            <p id="data">
+                <label for="idate" id="data1">Data de Nascimento</label>
+                <input type="date" name="idate" id="idate">
+            </p>
+            <p id="estado">
+                <label for="iestado" id="iestado">Estado</label>
+                <select id="select">
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </p>
+            <p id="email">
+                <label for="iemail" id="email1">Email</label>
+                <input type="email" name="iemail" id="iemail">
+            </p>
+            <p id="tel">
+                <label for="itel" id="tel1">Telefone</label>
+                <input type="tel" name="itel" id="itel">
+            </p>
+            <fieldset id="estado">
+                <legend>Atualmente você se encaixa em qual dessas vagas?</legend>
+                <input type="checkbox" name="idevfro" id="idevfro"> <label for="idevfro">Pessoa Desenvolvedora Frontend - Júnior</label> 
+                <input type="checkbox" name="idevbac" id="idevbac"> <label for="idevbac">Pessoa Desenvolvedora Backend - Sênior</label> 
+                <input type="checkbox" name="idevful" id="idevful"> <label for="idevful">Pessoa Desenvolvedora Fullstack - Pleno</label>
+            </fieldset>
+            <p>
+                <label for="file" id="envie">Envie seu currículo(Formato PDF)</label>
+                <input type="file" name="file" id="iname">
+            </p>
+            <p></p>
+            </form>
+        
+    </main>
+    
+</body>
+</html>

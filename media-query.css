@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&family=Outfit:wght@100;400;600;700&family=Passion+One&family=Sriracha&family=Work+Sans&display=swap');
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas: telas: até 600px
+Celular: de 600px até 760px
+Tablet: 768 até 992px;
+Desktop: 992px até 120px;
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body{
+        height: 100vh;
+        width:100vw;
+        background-image: url(/imagem/pexels-julia-m-cameron-4144179.jpg);
+        background-size: cover;
+        font-family: Worksans;
+    }
+
+    form{
+        background-color: rgba(255, 255, 255, 0.404);
+      
+    }
+}
+
+@media screen and (min-width:992px) {
+    
+    body{
+        height: 100vh;
+        width: 100vw;
+     background: url(/imagem/pexels-fauxels-3183135.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    form{
+       background-color: rgba(255, 255, 255, 0.562);
+       width: 600px;
+       margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
