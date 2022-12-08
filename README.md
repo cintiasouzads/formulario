@@ -1,7 +1,7 @@
 <h1 align="center"> Formulário simples </h1>
 
 <h2>Descrição do projeto<h2>
-<h3>Formulário desenvolvido com CSS e HTML. Layout para :
+<h3>Formulário desenvolvido com CSS e HTML com fundo de tela adaptado para diferentes tamanhos de tela :
 
 Mobile
 
